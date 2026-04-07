@@ -70,7 +70,7 @@ crontab -e
 Add the line:
 
 ```bash
-*/10 * * * * /path/to/health_check.sh
+*/5 * * * * /path/to/health_check.sh
 ```
 
 ---
