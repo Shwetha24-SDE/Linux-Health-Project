@@ -2,9 +2,9 @@
 export HOME=/home/shwetha
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-CPU_THRESHOLD=1
-MEM_THRESHOLD=1
-DISK_THRESHOLD=1
+CPU_THRESHOLD=60
+MEM_THRESHOLD=60
+DISK_THRESHOLD=60
 EMAIL="shwethap2443@gmail.com"
 LOG_FILE="/var/log/system_health.log"
 DATE=$(/usr/bin/date '+%Y-%m-%d %H:%M:%S')
