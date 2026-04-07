@@ -1,25 +1,23 @@
 # Linux-Health-Project
-A Bash script to monitor Linux server health, track resource usage, and send alerts if thresholds are exceeded. Ideal for system administrators and DevOps engineers who want a lightweight automated monitoring solution.
+A Bash script to monitor Linux server health, track CPU, memory, and disk usage, and send email alerts when thresholds are exceeded. Logs system health and resource usage for easy monitoring.
 # Features
-CPU Usage Monitoring: Detects high CPU utilization.
+Monitors CPU, Memory, and Disk usage
 
-Memory Usage Monitoring: Tracks RAM consumption.
+Logs system health to /var/log/system_health.log
 
-Disk Usage Monitoring: Monitors disk space on all partitions.
+Sends email alerts when usage exceeds thresholds (default: 60%)
 
-Top Processes Report: Identifies resource-intensive processes.
+Tracks Top 5 CPU and Memory consuming processes
 
-Logging: Stores system health data in /var/log/system_health.log.
-
-Email Alerts: Sends email notifications when usage exceeds thresholds.
-
-Automated Scheduling: Can be run periodically using cron.
+Fully automatable with cron jobs.
 
 # Technologies Used
 Bash scripting
 
-Linux commands: top, df, free, uptime, ps
+Linux commands: top, free, df, ps
 
-Email alerts via mail or sendmail
+Email alerts using msmtp
 
-cron jobs for automation
+Logging to /var/log/system_health.log
+
+Cron jobs for automation
