@@ -97,24 +97,12 @@ PID   PPID   CMD       %MEM  %CPU
 
 ## Sample Output
 
-### System Health Log Output
-![System Health Log Output](images/output.jpeg)
-
 ### Email Alert
 ![Email Alert Screenshot](images/email_alert.jpeg)
 
-> This will display your script output directly in the README.
 
----
-
-## Email Alert Example
-
-```text
-Subject: ALERT: High CPU Usage on Server
-Body:
-2026-04-07 10:00:00 - High CPU Usage: 72%
-Please take necessary action.
-```
+### Schedule Automatic Alerts Every 5 Minutes
+![System Health Log Output](images/output.jpeg)
 
 ---
 
